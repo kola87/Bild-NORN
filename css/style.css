@@ -1,0 +1,179 @@
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Puritan', sans-serif; 
+    /*background-image: url("/css/img/body/sea-background.png"); */
+}
+.wrapper{
+    color: #000000;
+    max-width: 100%;
+    min-height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  /*  background-image: url("/css/img/header/background-header.png"); */
+}
+.contacts{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    align-items: baseline;
+    text-transform: uppercase; 
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 15px;
+}
+.logo h1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 60px;
+    padding-left: 15px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-transform: uppercase; 
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    width: 40%;
+    list-style: none;
+}
+.menu-link{
+    color: #000000;
+    text-decoration: none;
+}
+/*----------------1-st-rectangle-section-----------------------------*/
+.mrblock{
+    display: flex;
+    justify-content: center; 
+}
+.main-rectangles{
+    position: absolute;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    top: 150px;
+    left: 400px;
+}
+.rectangle-inpic1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    top: -20px;    
+} 
+.rectangle-inpic2{
+    position: absolute;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+  /*  transform: rotate(44.4deg); */
+} 
+
+/*-----------------brown-rectangle---------------------*/
+.rectangle-btn-text{
+    display: flex;
+    justify-content: center;
+}
+.brown-rectangle{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    right: 580px;
+    top: 200px;
+}
+.ract-bro-2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+.ract-bro-1{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    transform: rotate(89deg);
+    padding-right: 11px;
+    padding-bottom: -10px; 
+}
+/*---------------Text-with-button-in-rectangle-----------------------*/
+.ract-br-text-btn{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: center;
+    flex-wrap: wrap;
+     
+}
+.ract-br-text-btn p{
+    display: flex;
+    align-items: center;
+    
+}
+.ract-br-text-btn button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    top: 120px;
+    background-color: #BA9898;
+    text-transform: uppercase;
+    width:210px;
+    height: 45px;
+}
+/*-------------grey-rectangle-menu-inside------------------*/
+
+.ract-gray-menu{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    left: 413.5px;
+    top: 455px;
+
+}
+.menu-in-grey-rect{
+    position: absolute;
+    display: flex;
+    align-self: flex-start;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.menu-in-grey-rect li{
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    margin-top:16.5px;
+}
+.rect-mini-grey{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    right: -118px;
+    top: 116.5px;
+}
