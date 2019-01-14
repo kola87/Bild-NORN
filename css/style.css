@@ -1,20 +1,60 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
-    font-family: 'Puritan', sans-serif; 
-    /*background-image: url("/css/img/body/sea-background.png"); */
+     
 }
+
 .wrapper{
     color: #000000;
     max-width: 100%;
-    min-height: 500px;
-    position: absolute;
+    height: 100vh;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-  /*  background-image: url("/css/img/header/background-header.png"); */
+    
 }
+.wrapper2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 160px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.header_background_square800{
+    position: absolute;
+    z-index: -1;
+    transform: rotate(45deg);
+    top: 174px;
+}
+.header_background_triangle{
+    position: absolute;
+    z-index: -1;    
+    display: flex;
+    justify-content: flex-end;
+    width: 0;
+    height: 0;
+    right: 0;
+    top:500px;
+    border-style: solid;
+    border-width: 15.5em 15.5em 15.5em 15.5em; /* размер и форма */ 
+    border-color: transparent white transparent transparent;  /* red — цвет */ 
+}
+
+.body-background{
+    position: absolute;
+    background: url(../css/img/sea_background.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: -2;
+    
+}
+
 .contacts{
     display:flex;
     flex-direction: row;
@@ -23,13 +63,16 @@ body{
     padding-top: 15px;
     padding-right: 15px;
     align-items: baseline;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 .social{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.logo .h1{
+    font-family: 'Puritan', sans-serif;
 }
 .logo{
     display: flex;
@@ -56,7 +99,15 @@ body{
     padding: 0;
     width: 40%;
     list-style: none;
+    z-index: 1; 
 }
+/*
+.menu-table {
+    padding:0;
+    border-collapse: separate; 
+    border-spacing: 10px 20px;
+}*/
+
 .menu-link{
     color: #000000;
     text-decoration: none;
@@ -64,15 +115,18 @@ body{
 /*----------------1-st-rectangle-section-----------------------------*/
 .mrblock{
     display: flex;
-    justify-content: center; 
+    justify-content: flex-end;
+    
+   
 }
 .main-rectangles{
     position: absolute;
     display: flex; 
     flex-direction: row;
     justify-content: center;
-    top: 150px;
-    left: 400px;
+    padding-right: 15px;
+   
+    
 }
 .rectangle-inpic1{
     position: absolute;
@@ -95,6 +149,7 @@ body{
 .rectangle-btn-text{
     display: flex;
     justify-content: center;
+
 }
 .brown-rectangle{
     display: flex;
@@ -103,6 +158,7 @@ body{
     justify-content: center;
     right: 580px;
     top: 200px;
+    
 }
 .ract-bro-2{
     position: absolute;
@@ -114,9 +170,9 @@ body{
     position: absolute;
     display: flex;
     justify-content: flex-start;
-    transform: rotate(89deg);
-    padding-right: 11px;
-    padding-bottom: -10px; 
+    transform: rotate(90deg);
+    padding-right: 7px;
+    padding-bottom: -12px; 
 }
 /*---------------Text-with-button-in-rectangle-----------------------*/
 .ract-br-text-btn{
@@ -126,12 +182,12 @@ body{
     justify-content: flex-end;
     align-self: center;
     flex-wrap: wrap;
+    margin-top: 15px;
      
 }
 .ract-br-text-btn p{
     display: flex;
     align-items: center;
-    
 }
 .ract-br-text-btn button{
     position: relative;
@@ -139,10 +195,10 @@ body{
     justify-content: center;
     align-items: center;
     align-self: center;
-    top: 120px;
+    top: 53px;
     background-color: #BA9898;
     text-transform: uppercase;
-    width:210px;
+    width: 182px;
     height: 45px;
 }
 /*-------------grey-rectangle-menu-inside------------------*/
@@ -152,8 +208,8 @@ body{
     display: flex;
     justify-content: center;
     align-self: flex-end;
-    left: 413.5px;
-    top: 455px;
+    left: 356.5px;
+    top: 368px;
 
 }
 .menu-in-grey-rect{
@@ -170,10 +226,12 @@ body{
     height: 20%;
     margin-top:16.5px;
 }
+
 .rect-mini-grey{
     position: absolute;
     display: flex;
     justify-content: center;
-    right: -118px;
+    right: -116.5px;
     top: 116.5px;
 }
+
