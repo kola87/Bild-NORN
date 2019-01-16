@@ -25,6 +25,7 @@ body{
     bottom: 0;
 }
 .wrapper3{
+    position: relative;
     width: 100%;
     height: 100vh;
     justify-content: center;
@@ -32,6 +33,16 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
+}
+.wrapper4{
+    position: relative;
+    top: 280px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #112132;
+    width: 100%;
+    height: 1500px;
 }
 .symbol_mark5{
     position: relative;
@@ -66,7 +77,7 @@ body{
     background: url(../css/img/sea_background.png) no-repeat center;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    min-height: 1300px;
     z-index: -2;
     
 }
@@ -87,7 +98,7 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.logo .h1{
+.logo h1{
     font-family: 'Puritan', sans-serif;
 }
 .logo{
@@ -180,7 +191,7 @@ body{
     position: absolute;
     display: flex;
     justify-content: center;
-    z-index: 2;
+    
 }
 .ract-bro-1{
     position: absolute;
@@ -199,6 +210,7 @@ body{
     align-self: center;
     flex-wrap: wrap;
     margin-top: 15px;
+    z-index: 1;
      
 }
 .ract-br-text-btn p{
@@ -216,6 +228,7 @@ body{
     text-transform: uppercase;
     width: 182px;
     height: 45px;
+    
 }
 /*-------------grey-rectangle-menu-inside------------------*/
 
@@ -234,6 +247,7 @@ body{
     align-self: flex-start;
     text-decoration: none;
     list-style: none;
+    z-index: 1;
     
 }
 .menu-in-grey-rect li{
@@ -241,6 +255,7 @@ body{
     justify-content: center;
     height: 20%;
     margin-top:16.5px;
+    
 }
 
 .rect-mini-grey{
@@ -250,8 +265,94 @@ body{
     right: -116.5px;
     top: 116.5px;
 }
-
+/*----------------------------------------------*/
 .p_under_symbol{
     display: flex;
     justify-content: center;
+    color: white;
+    list-style: none;
+    margin-bottom: 15px; 
+
 }
+
+.bloks{
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.bloks p{
+    height: 50px;
+    width: 85%;
+    color: white;
+    justify-content: space-around;
+    padding-left: 88px;
+    font-size: 14px;
+    padding-top: 22px;
+
+
+}
+
+
+.blok_1 {
+    width: 450px;
+    height: 250px;
+    background: rgb(0,0,0,0.4);
+    
+    
+}
+
+.rect_small_white_1{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px; /* размер и форма */ 
+    border-color: white;
+    transform: rotate(45deg);
+    margin-left: 8px;
+    margin-right: 8px;
+    
+}
+.blok_2 {
+    width: 450px;
+    height: 250px;
+    background: rgb(0,0,0,0.4);
+   
+    
+
+  }
+  .rect_small_white_2{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px; /* размер и форма */ 
+    border-color: white;
+    transform: rotate(45deg);
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .blok_3 {
+    width: 450px;
+    height: 250px;
+    background: rgb(0,0,0,0.4);
+  }
+  .arrow_1{
+    padding-left: 10px;
+
+
+  }
+
+  /*---------------------------------------*/
+
+
+.ractangle_section{
+    position: relative;
+
+}
+.cap_pic{
+    position: absolute;
+}  
