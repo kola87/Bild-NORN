@@ -1,0 +1,499 @@
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+     
+}
+
+.wrapper{
+    color: #000000;
+    max-width: 100%;
+    height: 380px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+.wrapper2{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -226px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.wrapper3{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.wrapper4{
+    position: relative;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #112132;
+    width: 100%;
+    height: 1500px;
+}
+.symbol_mark5{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 160px;
+    right: 40px;
+    padding-bottom: 170px;
+}
+
+.header_background_square800{
+    position: absolute;
+    z-index: -1;
+    transform: rotate(45deg);
+    right: 539px;
+    top: 242px;
+}
+.header_background_triangle{
+    position: absolute;
+    z-index: -1;    
+    display: flex;
+    justify-content: flex-end;
+    width: 0;
+    height: 0;
+    right: 4px;
+    top: 330px;
+    border-style: solid;
+    border-width: 18.5em 18.5em 18.5em 18.5em;-width: 15.5em 15.5em 15.5em 15.5em; /* размер и форма */ 
+    border-color: transparent white transparent transparent;  /* red — цвет */ 
+}
+
+.body-background{
+    position: absolute;
+    background: url(../css/img/sea_background.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    min-height: 1300px;
+    z-index: -2;
+    margin-top: -290px;
+    
+}
+
+.contacts{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    align-items: baseline;
+    text-transform: uppercase;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h1{
+    font-family: 'Puritan', sans-serif;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 15px;
+}
+.logo h1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 60px;
+    padding-left: 15px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-transform: uppercase; 
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    width: 40%;
+    list-style: none;
+    z-index: 1; 
+}
+/*
+.menu-table {
+    padding:0;
+    border-collapse: separate; 
+    border-spacing: 10px 20px;
+}*/
+
+.menu-link{
+    color: #000000;
+    text-decoration: none;
+}
+/*----------------1-st-rectangle-section-----------------------------*/
+.mrblock{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.main-rectangles{
+    position: absolute;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 405px;
+    
+    
+   
+    
+}
+.rectangle-inpic1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    top: -20px;    
+} 
+.rectangle-inpic2{
+    position: absolute;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+  /*  transform: rotate(44.4deg); */
+} 
+
+/*-----------------brown-rectangle---------------------*/
+.rectangle-btn-text{
+    display: flex;
+    justify-content: center;
+
+}
+.brown-rectangle{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    right: 580px;
+    top: 200px;
+    
+}
+.ract-bro-2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    
+}
+.ract-bro-1{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    transform: rotate(90deg);
+    padding-right: 7px;
+    padding-bottom: -12px; 
+}
+/*---------------Text-with-button-in-rectangle-----------------------*/
+.ract-br-text-btn{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    z-index: 1;
+     
+}
+.ract-br-text-btn p{
+    display: flex;
+    align-items: center;
+}
+.ract-br-text-btn button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    top: 53px;
+    background-color: #BA9898;
+    text-transform: uppercase;
+    width: 182px;
+    height: 45px;
+    
+}
+/*-------------grey-rectangle-menu-inside------------------*/
+
+.ract-gray-menu{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    left: 363.5px;
+    top: 361px;
+
+}
+.menu-in-grey-rect{
+    position: absolute;
+    display: flex;
+    align-self: flex-start;
+    text-decoration: none;
+    list-style: none;
+    z-index: 1;
+    
+}
+.menu-in-grey-rect li{
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    margin-top:16.5px;
+    
+}
+
+.rect-mini-grey{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    right: -116.5px;
+    top: 116.5px;
+}
+/*----------------------------------------------*/
+.p_under_symbol{
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style: none;
+    padding-bottom: 15px; 
+
+}
+
+.bloks{
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.bloks p{
+    height: 50px;
+    width: 85%;
+    color: white;
+    justify-content: space-around;
+    padding-left: 88px;
+    font-size: 14px;
+    padding-top: 22px;
+
+
+}
+
+
+.blok_1 {
+    width: 450px;
+    height: 250px;
+    background: rgb(0,0,0,0.4);
+    
+    
+}
+
+.rect_small_white_1{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px; /* размер и форма */ 
+    border-color: white;
+    transform: rotate(45deg);
+    margin-left: 8px;
+    margin-right: 8px;
+    
+}
+.blok_2 {
+    width: 450px;
+    height: 250px;
+    background: rgb(0,0,0,0.4);
+   
+    
+
+  }
+  .rect_small_white_2{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px; /* размер и форма */ 
+    border-color: white;
+    transform: rotate(45deg);
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .blok_3 {
+    width: 450px;
+    height: 250px;
+    background: rgb(0,0,0,0.4);
+  }
+  .arrow_1{
+    padding-left: 10px;
+
+
+  }
+
+  /*----------section-of-rectangles-2--------------------------*/
+
+
+.ractangle_section{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    
+}
+.cap_pic{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    left: -362px;
+    bottom: 129px;
+}  
+.rect_grey2_3{
+    position: absolute;
+    top: -46px;
+    transform: scale(0.8);
+    padding-right: 309px;
+
+}
+
+/*-----------brown_rect---------------*/
+.rect_brown2_6{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    right: -46px;
+    top: 55px;
+    
+}
+.child_brown2_6{
+    position: absolute;    
+    display: flex;
+    justify-content: center;
+    top: 28px;
+
+}
+.mark_4_white{
+    position: absolute;
+    display: flex;
+    align-self: center;
+    top: 148px;
+}
+.white_uppercase_text{
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    bottom: 105px;
+}
+
+/*-------------------*/
+.pic_arrow_rect{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    transform: rotate(45deg)scale(0.55);
+    overflow: hidden;
+    width: 650px;
+    height: 650px;
+    top: 186px;
+    right: 597px;
+    
+}
+
+.pict_arrow{
+    position: absolute;
+    transform: rotate(-45deg)scale(1.79);
+    height: 65%;
+
+    
+}
+.ract_small_arrow{
+    position: absolute;
+    transform: rotate(45deg);
+    align-self: flex-end;
+    left: -26px;
+    bottom: -26px;
+}
+
+/*-----------woman--teacher-------------------*/
+
+.tutor{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    transform: rotate(45deg) scale(1);
+    width: 230px;
+    overflow: hidden;
+    height: 230px;
+    top: 343px;
+    right: 285px;
+}
+.tutor_img{
+    position: absolute;
+    transform: rotate(-45deg) scale(1.1);
+    height: 270px;
+    width: 334px;
+}
+.tutor_rect_black{
+    position: absolute;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    left: -18px;
+    top: -14px;
+}
+.tutor_rect_white{
+    position: absolute;
+    left: -3px;
+    top: 20px;
+    
+}
+/*-------------man--teacher--------------*/
+
+.man{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    transform: rotate(45deg) scale(0.8);
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    top: 308px;
+    right: -113px;
+}
+.man_pict{
+    position: absolute;
+    transform: rotate(-45deg) scale(1.7);
+    display: flex;
+    justify-content: center;
+    right: 16px;
+    top: 5px;
+}
+.rect_small_man{
+    position: absolute;
+    top: 149px;
+    right: 233px;
+}
