@@ -67,8 +67,6 @@ body{
     bottom: 0;
 }
 
-
-
 .symbol_mark5{
     position: relative;
     display: flex;
@@ -155,7 +153,6 @@ body{
     list-style: none;
     z-index: 1; 
 }
-
 
 .menu-link{
     color: #000000;
@@ -619,7 +616,6 @@ body{
     justify-content: center;
     align-content: center;
     align-items: center;
-
     width: 895px;
     height: 325px;
     background: rgba(0,0,0,0.4);
@@ -783,3 +779,325 @@ body{
     align-self: center;
     padding-right: 876px;
 }
+
+/* -IIIIIIIIIII--second-page-aria---- */
+
+.wrapper_courses{
+    max-width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: relative;
+}
+
+
+.logo_courses{
+    transform: rotate(-45deg);
+    padding-top: 153px;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rect_brown_top_logo{
+    width: 230px;
+    height: 230px;
+    background-color: #BA9898;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+}
+.blok_logo{
+    position: absolute;
+    display: flex;
+    top: -116px;
+    left: 86px;
+}
+
+/* ------MENU_COURSES----- */
+.menu_courses{
+   
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-transform: uppercase;
+    z-index: 1;
+    padding-top: 30px;
+    font-size: 14px;  
+}
+.menu_courses > ul{
+    display: flex;
+    justify-content: space-between;
+    width: 31%;
+    text-decoration: none;
+    list-style: none;
+}
+.social_courses{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+    align-items: center;
+    width: 500px;   
+}
+
+.background_main{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(181.22deg, #FFFFFF 1.81%, rgba(255, 255, 255, 0.91) 9.04%, rgba(255, 255, 255, 0.41) 31.96%, rgba(160, 166, 173, 0.646) 37.7%, #112132 98.19%), url(../css/img/yuriy-garnaev-395878-unsplash.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+    top: 70px;
+    
+}
+.courses_9_rectangles{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    left: 360px;
+    position: absolute;
+}
+.text_top_header {
+    padding-left: 163px;
+    padding-top: 130px;
+    font-size: 23px;
+}
+
+.rect_1{
+    width: 156px;
+    height: 156px;
+    background-color: #BACBDC;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.rect_1 h2{
+    transform: rotate(-45deg);
+    font-size: 20px;
+    position: absolute;
+    top: 35px;
+    left: 4px;
+}
+.rect_1 p{
+    transform: rotate(-45deg);
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: 22px;
+    left: 22px;
+}
+.rect_1 img{
+    position: absolute;
+    transform: rotate(-45deg);
+    right: 10px;
+    bottom: 19px;
+}
+.rect_2{
+    display: flex;
+    position: absolute;
+    left: 98px;
+    bottom: 94px;
+}
+.background_rect_2{
+    width: 220px;
+    height: 220px;
+    background: linear-gradient(0deg, rgba(17, 33, 50, 0.61), rgba(17, 33, 50, 0.61)), url(../css/img/reykjavik3.png);
+   -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);  
+   clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);  
+}
+.rect_2 p{
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    z-index: 1;
+    position: absolute;
+    align-self: center;
+    left: 58px;
+    top: 128px;
+}
+.rect_3{
+    display: flex;
+    bottom: -3px;
+    position: absolute;
+    left: 227px;
+    top: -31px;
+}
+.background_rect_3{
+    width: 220px;
+    height: 220px;
+    background: linear-gradient(0deg, rgba(17, 33, 50, 0.61), rgba(17, 33, 50, 0.61)), url(../css/img/stockholm.png);
+   -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);  
+   clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);  
+}
+.rect_3 p{
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    z-index: 1;
+    position: absolute;
+    align-self: center;
+    left: 68px;
+    top: 137px;
+}
+.rect_red_45{
+    width: 45px;
+    height: 45px;
+    background: #432132;
+    display: flex;
+    position: absolute;
+    transform: rotate(45deg);
+    bottom: 228px;
+    left: 315px;
+}
+.rect_4{
+    display: flex;
+    position: absolute;
+    left: 356px;
+    bottom: 95px;
+}
+.background_rect_4{
+    width: 220px;
+    height: 220px;
+    background: linear-gradient(0deg, rgba(17, 33, 50, 0.61), rgba(17, 33, 50, 0.61)), url(../css/img/helsinki.png);
+   -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);  
+   clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);  
+}
+.rect_4 p{
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    z-index: 1;
+    position: absolute;
+    align-self: center;
+    left: 73px;
+    top: 137px;
+}
+.rect_grey_80{
+    width: 80px;
+    height: 80px;
+    background: #435465;
+    display: flex;
+    position: absolute;
+    transform: rotate(45deg);
+    bottom: 234px;
+    left: 551px;
+}
+.rect_white_37{
+    width: 37px;
+    height: 37px;
+    background: white;
+    display: flex;
+    position: absolute;
+   
+}
+.rect_black_27{
+    width: 27px;
+    height: 27px;
+    background: black;
+    display: flex;
+    position: absolute;
+}
+.rect_5{
+    display: flex;
+    position: absolute;
+    left: 607px;
+    bottom: 95px;
+}
+.background_rect_5{
+    width: 220px;
+    height: 220px;
+    background: linear-gradient(0deg, rgba(17, 33, 50, 0.61), rgba(17, 33, 50, 0.61)), url(../css/img/kopengaagen.png);
+   -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);  
+   clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);  
+}
+.rect_5 p{
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    z-index: 1;
+    position: absolute;
+    align-self: center;
+    left: 77px;
+    top: 137px;
+}
+
+/* --section_6_blocks----- */
+
+.container_6_blocks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 222px;
+}
+/* .container_6_blocks h3, p{
+    color: white;
+} */
+.container_text_blocks{
+    width: 400px;
+    height: 180px;
+    padding-left: 116px;
+    font-size: 12px;
+}
+.block_1{
+    width: 400px;
+    height: 180px;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+.block_2{
+    width: 400px;
+    height: 180px;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+.block_3{
+    width: 400px;
+    height: 180px;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+    margin-bottom: 25px;
+}
+.block_4{
+    width: 400px;
+    height: 180px;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+    margin-right: 15px;
+}
+.block_5{
+    width: 400px;
+    height: 180px;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+    margin-right: 15px;
+}
+.block_6{
+    width: 400px;
+    height: 180px;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+.h2_of_6_blocks{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 148px;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
