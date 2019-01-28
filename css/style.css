@@ -793,7 +793,7 @@ body{
 }
 
 
-.logo_courses{
+ .logo_courses{
     transform: rotate(-45deg);
     padding-top: 153px;
     font-size: 11px;
@@ -803,7 +803,7 @@ body{
     align-items: center;
 }
 
-.rect_brown_top_logo{
+ .rect_brown_top_logo{
     width: 230px;
     height: 230px;
     background-color: #BA9898;
@@ -818,10 +818,10 @@ body{
     left: 86px;
 }
 
-/* ------MENU_COURSES----- */
+ /* ------MENU_COURSES----- */
 .menu_courses{
-   
-    display: flex;
+
+     display: flex;
     justify-content: flex-end;
     align-items: center;
     text-transform: uppercase;
@@ -844,7 +844,7 @@ body{
     width: 500px;   
 }
 
-.background_main{
+ .background_main{
     display: flex;
     justify-content: center;
     background: linear-gradient(181.22deg, #FFFFFF 1.81%, rgba(255, 255, 255, 0.91) 9.04%, rgba(255, 255, 255, 0.41) 31.96%, rgba(160, 166, 173, 0.646) 37.7%, #112132 98.19%), url(../css/img/yuriy-garnaev-395878-unsplash.png) no-repeat center;
@@ -854,8 +854,8 @@ body{
     position: relative;
     z-index: -1;
     top: 70px;
-    
-}
+
+ }
 .courses_9_rectangles{
     display: flex;
     justify-content: flex-start;
@@ -869,7 +869,7 @@ body{
     font-size: 23px;
 }
 
-.rect_1{
+ .rect_1{
     width: 156px;
     height: 156px;
     background-color: #BACBDC;
@@ -996,8 +996,8 @@ body{
     background: white;
     display: flex;
     position: absolute;
-   
-}
+
+ }
 .rect_black_27{
     width: 27px;
     height: 27px;
@@ -1029,9 +1029,9 @@ body{
     top: 137px;
 }
 
-/* --section_6_blocks----- */
+ /* --section_6_blocks----- */
 
-.container_6_blocks{
+ .container_6_blocks{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1039,58 +1039,77 @@ body{
     position: absolute;
     top: 222px;
 }
-/* .container_6_blocks h3, p{
-    color: white;
-} */
+
 .container_text_blocks{
     width: 400px;
     height: 180px;
     padding-left: 116px;
     font-size: 12px;
+    position: absolute;
+    top: 43px;
 }
 .block_1{
     width: 400px;
     height: 180px;
     background: rgba(0,0,0,0.5);
     z-index: 1;
-    margin-right: 15px;
+    margin-right: 6px;
     margin-bottom: 25px;
+    margin-left: 6px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
 }
 
-.block_2{
+ .block_2{
     width: 400px;
     height: 180px;
     background: rgba(0,0,0,0.5);
     z-index: 1;
-    margin-right: 15px;
+    margin-right: 6px;
     margin-bottom: 25px;
+    margin-left: 6px;
+    margin-top: 10px;
 }
 .block_3{
     width: 400px;
     height: 180px;
     background: rgba(0,0,0,0.5);
     z-index: 1;
+    margin-right: 6px;
     margin-bottom: 25px;
+    margin-left: 6px;
+    margin-top: 10px;
 }
 .block_4{
     width: 400px;
     height: 180px;
     background: rgba(0,0,0,0.5);
     z-index: 1;
-    margin-right: 15px;
+    margin-right: 6px;
+    margin-bottom: 25px;
+    margin-left: 6px;
+    margin-top: 10px;
 }
 .block_5{
     width: 400px;
     height: 180px;
     background: rgba(0,0,0,0.5);
     z-index: 1;
-    margin-right: 15px;
+    margin-right: 6px;
+    margin-bottom: 25px;
+    margin-left: 6px;
+    margin-top: 10px;
 }
 .block_6{
     width: 400px;
     height: 180px;
     background: rgba(0,0,0,0.5);
     z-index: 1;
+    margin-right: 6px;
+    margin-bottom: 25px;
+    margin-left: 6px;
+    margin-top: 10px;
 }
 .h2_of_6_blocks{
     display: flex;
@@ -1100,4 +1119,14 @@ body{
     text-transform: uppercase;
     font-size: 21px;
 }
-
+.block_1 h3,p{
+    color: white;
+}
+.rect_white_20_block1{
+    width: 20px;
+    height: 20px;
+    background: white;
+    transform: rotate(45deg);
+    left: 48px;
+    position: relative;
+}

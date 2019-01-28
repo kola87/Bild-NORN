@@ -17,7 +17,7 @@
         transform: scale(0.8);
         }
 }
-@media(max-width: 1020px){
+@media(max-width: 1030px){
     .header_background_triangle {
         right: 0px;
         top: 100px;
@@ -29,6 +29,10 @@
         right: 0px;
         top: 90px;
         }
+    .courses_9_rectangles{
+        left: 133px;
+    }
+
 }   
 @media(max-width: 900px){
     .header_background_triangle {
