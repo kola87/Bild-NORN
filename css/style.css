@@ -1438,20 +1438,21 @@ body{
     color: white;
 }
 .footer_col1{
-    position: relative;
+    position: absolute;
     display: flex;
 }
 .rect_brown_down_logo {
-    width: 230px;
-    height: 230px;
+    width: 225px;
+    height: 225px;
     background-color: #BA9898;
     transform: rotate(45deg);
     display: flex;
-    position: relative;
-    right: 117px;
+    position: absolute;
+    left: -117px;
     align-self: flex-end;
-    bottom: 50px;
+    top: 133px;
 }
+
 .logo_bottom_2{
     position: absolute;
     display: flex;
@@ -1461,8 +1462,9 @@ body{
 
 }
 .footer_col2{
-    top: 70px;
+    padding-top: 70px;
     position: relative;
+    padding-left: 220px;
 }
 .footer_col2_middle_p{
     padding: 20px 0px 20px 0px;

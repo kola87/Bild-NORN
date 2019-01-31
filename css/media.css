@@ -18,6 +18,17 @@
         }
 }
 @media(max-width: 1030px){
+
+
+.menu_courses {
+    font-size: 11px;
+}
+    .social_courses {
+        width: 423px;
+    }
+    .text_top_header {
+        padding-left: 10px;
+    }
     .header_background_triangle {
         right: 0px;
         top: 100px;
@@ -32,7 +43,35 @@
     .courses_9_rectangles{
         left: 133px;
     }
+    .background_blue_1063{
 
+        height: 1690px;
+    }
+    .text_header_white_block3{
+        top: 412px;
+    }
+    .buttons_bottom_right {
+        padding-top: 480px;
+        padding-right: 125px;
+    }
+    .container_shedulare {
+        top: 460px;
+    }
+    .footer_aria_courses{
+        top: 0px;
+        font-size: 13px;
+    }
+    .rect_brown_down_logo{
+        left: -120px;
+        top: 125px;
+        width: 200px;
+        height: 200px;
+
+    }
+    .footer_col2 {
+        font-size: 13px;
+        padding-left: 178px;
+    }
 }   
 @media(max-width: 900px){
     .header_background_triangle {
