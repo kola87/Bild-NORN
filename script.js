@@ -16,7 +16,7 @@
         }
         return b < 0 ? 1 / result : result
     }
-*/
+
 
 function zad1(a, b){
 
@@ -50,3 +50,5 @@ function zad3(hour, min, dur){
 
     
 }
+
+
