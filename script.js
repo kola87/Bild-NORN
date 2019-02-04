@@ -51,4 +51,32 @@ function zad3(hour, min, dur){
     
 }
 
+//applay, coll
+
+applay(context, params){}
+clearInterval(context, [param]) */
+function test(){
+    return this.red;
+}
+
+function Man(name, age){
+    this.name = name;
+    this.age = age;
+}
+
+Man.prototype = {
+    test : "this proto",
+    getName: function(){
+        return this.name
+    }
+}
+
+function f0(a){
+    this.a = a;
+    this.b = 56;
+}
+const f1 = function(){}
+const f2 = ()=>{}
+
+
 
