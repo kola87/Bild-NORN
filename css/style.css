@@ -7,7 +7,7 @@ body{
 .wrapper{
     color: #000000;
     max-width: 100%;
-    height: 280px;
+    height: 100vh;
     position: relative;
     justify-content: center;
     top: 0;
@@ -17,93 +17,51 @@ body{
     
 }
  
-.wrapper2{
-    max-width: 100%;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-.wrapper3{
-    position: relative;
-    width: 100%;
-    height: 800px;
-    justify-content: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-.wrapper4{
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    background: #112132;
-}
-.wrapper_5{
-    position: relative;
-    width: 100%;
-    height: 800px;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-}
-.wrapper_6_footer{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
 
 .symbol_mark5{
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: center;
-    top: 555px;
-    right: 40px;
-    padding-bottom: 271px;
+    top: -14vw;
+    left: 45vw;
+}
+.symbol_mark5 > img{
+    width: 8vw;
+    height: 15vh;
 }
 .header_wgite_square_left_800{
-    width: 652px;
-    height: 583px;
-    background: rgba(255, 255, 255, 1);
+    width: 32vw;
+    height: 49vw;
+    background-color: #ffffff;
     z-index: -1;
     position: absolute;
-    transform: rotate(45deg);
-}
-.header_background_triangle{
-    position: absolute;
-    z-index: -1;    
-    display: flex;
-    justify-content: flex-end;
-    top: 300px;
-    border-style: solid;
-    border-width: 11em 27.5em 25.5em 21.5em;
-    border-color: transparent white transparent transparent;
-    right: 0;
+    transform: rotate(90deg);
+    /* bottom: -8vw; */
+    right: -15vw;
+    /* clip-path: polygon(100% 0%, 75% 75%, 67% 100%, -5% 0%); */
+    bottom: 17vw;
 }
 
-.body-background{
-    position: absolute;
+.header_background_triangle{
+    width: 46vw;
+    height: 38vw;
+    background-color: white;
+    z-index: 0;
+    position: relative;
+    transform: rotate(43deg);
+    top: -19vw;
+    right: -2vw;
+}
+
+.body_background{
+    position: relative;
     background: url(../css/img/sea_background.png) no-repeat center;
     background-size: cover;
     width: 100%;
-    min-height: 1400px;
-    z-index: -2;
-    margin-top: -356px;
+    display: flex;
+    height: 70vw;
+   
+    
     
 }
 
@@ -145,6 +103,7 @@ body{
     align-items: flex-start;
     text-transform: uppercase; 
     z-index: 1 ;
+    padding-bottom: 24vw;
 }
 .menu ul{
     display: flex;
@@ -167,59 +126,64 @@ body{
 .mrblock{
     position: absolute;
     display: flex;
-}
+ } 
 .girl_rect{
     position: absolute;
     display: flex;
     justify-content: center;
-    width: 660px;
-    transform: rotate(-45deg) scale(0.70);
-    overflow: hidden;
-    
-}
-.girl_rect > img{
-    transform: rotate(45deg) scale(1.2);
-    height: 700px;
-    
+    -webkit-clip-path: polygon(50% -10%, 100% 50%, 50% 100%, 0 50%); 
+   clip-path: polygon(50% -10%, 100% 50%, 50% 100%, 0 50%);
+   background: url(../css/img/girl_big_pic.png) no-repeat center;
+   background-size: cover;
+   height: 56.8vw;
+   width: 59.1vw;
 }
 .girl_blok{
     position: absolute;
     display: flex;
-    bottom: 755px;
-    right: 235px;
+    bottom: 104.7vw;
+    right: 65vw;
 }
 .rectangle-inpic1{
     position: absolute;
     display: flex;
     align-self: flex-start;
-    left: 579px;
-    transform: rotate(45deg);
-    right: -39px;   
+    left: 27vw;
+    z-index: 2;
+    bottom: 0vw;
 } 
 .rectangle-inpic2{
     position: absolute;
     display: flex; 
     align-self: flex-end;
-    transform: rotate(44.4deg);
-    left: -47px;
-    top: 445px;
+    
 } 
+.rectangle-inpic2 > img{
+    height: 21.4vw;
+}
+.rectangle-inpic1 > img{
+    height: 5vw;
+}
 
 /*-----------------brown-rectangle---------------------*/
 .rectangle-btn-text{
+    position: absolute;
     display: flex;
     justify-content: center;
 
 }
 .brown-rectangle{
+
     display: flex;
     position: absolute;
-    flex-direction: row;
     justify-content: center;
-    right: 1px;
-    top: -346px;
-    transform: scale(0.85);
-    
+    width: 30vw;
+    height: 30vw;
+    background: #BA9898;
+    transform: rotate(45deg);
+    left: 13.7vw;
+    bottom: -14.2vw;
+    z-index: 2;
 }
 .ract-bro-2{
     position: absolute;
@@ -227,24 +191,35 @@ body{
     justify-content: center;
     
 }
+.ract-bro-2 > img{
+    width: 5vw;
+    height: 5vw;
+}
 .ract-bro-1{
     position: absolute;
     display: flex;
-    justify-content: flex-start;
-    transform: rotate(90deg);
-    padding-right: 7px;
-    padding-bottom: -12px; 
+    justify-content: center;
+    transform: rotate(-45deg);
+    bottom: 23.3vw;
+    right: 23.3vw;
+  
+}
+.ract-bro-1 > img{
+    width: 8vw;
+    height: 8vw;
+
 }
 /*---------------Text-with-button-in-rectangle-----------------------*/
 .ract-br-text-btn{
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     align-self: center;
-    flex-wrap: wrap;
-    margin-top: 15px;
     z-index: 1;
+    width: 20vw;
+    transform: rotate(-45deg);
+    font-size: 1.1vw;
+    text-align: center;
      
 }
 .ract-br-text-btn p{
@@ -257,84 +232,110 @@ body{
     justify-content: center;
     align-items: center;
     align-self: center;
-    top: 53px;
+    top: 7vw;
     background-color: #BA9898;
     text-transform: uppercase;
-    width: 182px;
-    height: 45px;
+    width: 10vw;
+    height: 3vw;
     
 }
-/*-------------grey-rectangle-menu-inside------------------*/
+/*------------gray-rectangle-menu-inside------------------*/
 
-.ract-gray-menu{
+.ract_gray_menu{
+    width: 14vw;
+    height: 14vw;
+    background-color: #BACBDC;
+    transform: rotate(45deg); 
     position: absolute;
     display: flex;
     justify-content: center;
-    top: 305px;
-    left: 472px;
-
+    top: 6vw;
+    left: 39vw;
 }
-.menu-in-grey-rect{
+
+
+.menu_in_grey_rect{
     position: absolute;
     display: flex;
-    align-self: flex-start;
-    text-decoration: none;
+    transform: rotate(-45deg);
+    left: 0vw;
+}
+.menu_in_grey_rect > li{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5vw;
+}
+.menu_in_grey_rect > ul{
+    height: 10vw;
     list-style: none;
-    z-index: 1;
-    
 }
-.menu-in-grey-rect li{
-    display: flex;
-    justify-content: center;
-    height: 20%;
-    margin-top:16.5px;
-    
+.menu_in_grey_rect p{
+    font-size: 1.4vw;
+    text-align: center;
 }
 
+.rect_background_small_{
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    background: url(../css/img/sea_background.png) no-repeat center;
+    background-size: cover;
+    left: 11.05vw;
+    bottom: 11vw;
+
+}
 .rect-mini-grey{
     position: absolute;
     display: flex;
     justify-content: center;
-    right: -114.5px;
-    top: 118.5px;
+    transform: rotate(-45deg);
+    left: 0.11vw;
+    bottom: 0.11vw;
+}
+.rect-mini-grey > img{
+    width: 3vw;
+    height: 3vw;
 }
 /*----------------------------------------------*/
 .p_under_symbol{
     display: flex;
+    position: absolute;
     justify-content: center;
     color: white;
     list-style: none;
-    padding-top: 305px;
-    font-size: 24px;
+    font-size: 1.5vw;
+    top: -9vw;
+    left: 35.5vw;
 }
 
 .bloks{
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
     position: relative;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
     align-items: center;
-   
+    top: -31vw;
+    left: 0vw;
 }
 .bloks p{
-    height: 50px;
-    width: 85%;
+    height: 4vw;
+    width: 27vw;;
     color: white;
     justify-content: space-around;
-    padding-left: 88px;
-    font-size: 14px;
-    padding-top: 22px;
+    padding-left: 6vw;
+    font-size: 1vw;
+    padding-top: 3vw;
 
 
 }
 
 
 .blok_1 {
-    width: 450px;
-    height: 250px;
+    width: 30vw;
+    height: 20vw;
     background: rgba(0,0,0,0.4);
     z-index: 1;
     
@@ -344,16 +345,16 @@ body{
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 5px 5px 5px 5px; /* размер и форма */ 
+    border-width: 0.4vw 0.4vw 0.4vw 0.4vw;
     border-color: white;
     transform: rotate(45deg);
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-left: 1vw;
+    margin-right: 1vw;
     
 }
 .blok_2 {
-    width: 450px;
-    height: 250px;
+    width: 30vw;
+    height: 20vw;
     background: rgba(0,0,0,0.4);
    z-index: 1;
     
@@ -370,13 +371,13 @@ body{
     margin-right: 8px;
   }
   .blok_3 {
-    width: 450px;
-    height: 250px;
+    width: 30vw;
+    height: 20vw;
     background: rgba(0,0,0,0.4);
     z-index: 1;
   }
   .arrow_1{
-    padding-left: 10px;
+    padding-left: 2vw;
 
 
   }
@@ -387,24 +388,33 @@ body{
 .ractangle_section{
     display: flex;
     position: relative;
-    justify-content: center;
-    height: 665px;
-
-    
+    justify-content: flex-start;
+    height: 50vw;
+    background-color: #112132;
+    width: 100vw;
+    bottom: 60vw;
+   
 }
 .cap_pic{
     position: absolute;
     display: flex;
-    justify-content: flex-start;
-    left: -362px;
-    bottom: 129px;
+    left: 0vw;
+    top: -6.6vw;
+    background: url(../css/img/cup.png) no-repeat center;
+    background-size: cover;
+    width: 28.5vw;
+    height: 31vw;
 }  
+
 .rect_grey2_3{
     position: absolute;
-    top: -46px;
-    transform: scale(0.81);
-    padding-right: 298px;
-
+    display: flex;
+    left: 20.5vw;
+   
+}
+.rect_grey2_3 > img{
+    width: 31vw;
+    height: 31vw;
 }
 
 /*-----------brown_rect---------------*/
@@ -412,31 +422,47 @@ body{
     position: absolute;
     display: flex;
     justify-content: center;
-    right: -64px;
-    top: 55px;
-    
+    left: 52vw;
+    top: 5vw;
+    background-color: #432132;
+    width: 20vw;
+    height: 20vw;
+    transform: rotate(45deg);
 }
 .child_brown2_6{
-    position: absolute;    
+    right: 16vw;
+    top: 0vw;
+    position: absolute;
     display: flex;
     justify-content: center;
-    top: 28px;
-
+    transform: rotate(45deg);
+}
+.child_brown2_6 > img{
+    width: 4vw;
+    height: 4vw;
 }
 .mark_4_white{
     position: absolute;
     display: flex;
     align-self: center;
-    top: 148px;
+    top: 5vw;
+    transform: rotate(45deg);
+    left: 5vw;
+}
+.mark_4_white > img{
+    width: 7vw; 
+    height: 7vw;   
 }
 .white_uppercase_text{
+    align-self: center;
     position: absolute;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 1.5vw;
     color: white;
     display: flex;
-    justify-content: center;
-    bottom: 105px;
+    bottom: 5vw;
+    transform: rotate(-45deg);
+    right: 2vw;
 }
 
 /*-------------------*/
@@ -444,28 +470,31 @@ body{
     position: absolute;
     display: flex;
     justify-content: center;
-    transform: rotate(45deg)scale(0.55);
     overflow: hidden;
-    width: 650px;
-    height: 650px;
-    top: 186px;
-    right: 597px;
+    width: 65vw;
+    height: 65vw;
+    top: 18vw;
+    right: 47vw;
     
 }
 
 .pict_arrow{
     position: absolute;
-    transform: rotate(-45deg)scale(1.79);
-    height: 65%;
-
-    
+    background: url(../css/img/pic_sign_arrow.png) no-repeat center;
+    background-size: cover;
+    width: 30vw;
+    height: 30vw;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0 50%);
 }
 .ract_small_arrow{
     position: absolute;
-    transform: rotate(45deg);
-    align-self: flex-end;
-    left: -26px;
-    bottom: -26px;
+    right: 42vw;
+    top: 12vw;
+}
+.ract_small_arrow > img {
+width: 6vw;
+height: 6vw;
+
 }
 
 /*-----------woman--teacher-------------------*/
@@ -474,91 +503,89 @@ body{
     position: absolute;
     display: flex;
     justify-content: center;
-    transform: rotate(45deg) scale(1);
-    width: 230px;
-    overflow: hidden;
-    height: 230px;
-    top: 343px;
-    right: 285px;
+    width: 23vw;
+    height: 23vw;
+    top: 19vw;
+    right: 38vw;
 }
 .tutor_img{
     position: absolute;
-    transform: rotate(-45deg) scale(1.1);
-    height: 270px;
-    width: 334px;
+    background: url(../css/img/tutor_1.png) no-repeat center;
+    background-size: cover;
+    width: 22vw;
+    height: 22vw;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0 50%);
+
 }
 .tutor_rect_black{
     position: absolute;
-    transform: rotate(45deg);
+    transform: rotate(90deg);
     display: flex;
     justify-content: center;
-    left: -18px;
-    top: -14px;
+    left: 9vw;
+    top: 0vw;
+}
+.tutor_rect_black > img{
+    width: 4vw;
+    height: 4vw;
 }
 .tutor_rect_white{
     position: absolute;
-    left: -3px;
-    top: 20px;
-    
+    left: 10.26vw;
+    top: 0vw;
+    display: flex;
+}
+.tutor_rect_white > img{
+    width: 1.5vw;
+    height: 1.5vw;
 }
 /*-------------man--teacher--------------*/
 
 .man{
     position: absolute;
     display: flex;
-    justify-content: center;
-    transform: rotate(45deg) scale(0.8);
-    overflow: hidden;
-    width: 300px;
-    height: 300px;
-    top: 308px;
-    right: -113px;
+    top: 19vw;
+    left: 63vw;
 }
 .man_pict{
     position: absolute;
-    transform: rotate(-45deg) scale(1.7);
-    display: flex;
-    justify-content: center;
-    right: 16px;
-    top: 5px;
+    background: url(../css/img/teacher_man.png) no-repeat center;
+    background-size: cover;
+    width: 22vw;
+    height: 22vw;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0 50%);
 }
 .rect_small_man{
     position: absolute;
-    top: 149px;
-    right: 233px;
+    top: 9.5vw;
+    right: 19vw;
 }
-
+.rect_small_man > img{
+    width: 3vw;
+    height: 3vw;
+}
 /* ----------class-pict---------------- */
 .classroom_section{
     position: absolute;
     display: flex;
-    width: 400px;
-    height: 400px;
-    
+    width: 40vw;
+    height: 40vw;
+    top: 31vw;
+    left: 22.5vw;
 }
 .pict_classroom{
-    position: absolute;
-    display: flex;
-    overflow: hidden;
-    transform: rotate(45deg) scale(1.1);
-    width: 100%;
-    height: 100%;
-    top: 87px;
-    left: 157px;
-}
-.pict_cl{
-    transform: rotate(-45deg);
-    position: absolute;
-    bottom: 138px;
-    right: 40px;
-
+    background: url(../css/img/class.png) no-repeat center;
+    background-size: cover;
+    width: 34vw;
+    height: 17vw;
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%, 0 100%);
 }
 .gradient_sea{
-   position: absolute;
+   position: relative;
     background: linear-gradient(to bottom, rgba(30, 30, 30, 0.8) 0%, rgba(16, 16, 16, 0) 0%, rgba(16, 16, 16, 0) 30%, rgba(2, 2, 2, 0.6) 100%);
     width: 100%;
-    height: 610px;
-  
+    height: 40vw;
+    bottom: 44.6vw;
 }   
 
 /* ----------menu_text_grey_rect--------- */
@@ -567,26 +594,31 @@ body{
     display: flex;
     flex-direction: column;
     color: white;
-    bottom: 126px;
+    bottom: 4vw;
     text-align: center;
-    left: 137px;
+    left: 5vw;
     align-items: center;
+}
+.menu_text_grey_rect > p{
+    font-size: 1.1vw;
 }
 /* -----------sea_2_second_aria-------------------- */
 .field_sea{
-    position: absolute;
+    position: relative;
     background: url(../css/img/sea_background.png) no-repeat center;
     background-size: cover;
     width: 100%;
-    height: 900px;
-    z-index: -2;
-    
+    height: 68vw;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    top: -60vw;
 }
 .gradient_sea_2{
     position: absolute;
-    background: linear-gradient(180deg, rgba(30, 30, 30, 0.8) 5%, rgba(16, 16, 16, 0) 54.14%, rgba(16, 16, 16, 0) 54.15%, rgba(20, 20, 20, 0.6) 70%);
+    background: linear-gradient(180deg, rgba(30, 30, 30, 0.4) 37%, rgba(16, 16, 16, 0) 47.14%, rgba(16, 16, 16, 0) 3.15%, rgba(20, 20, 20, 0.4) 52%);
     width: 100%;
-    height: 900px;
+    height: 100vw;
     z-index: -1;
 }   
 
@@ -594,7 +626,9 @@ body{
     position: absolute;   
     display: flex;
     justify-content: center;
-    top: 90px;
+    top: 2vw;
+    height: 8vw;
+    width: 8vw;
    
 }
 .talk_abour_us{
@@ -602,24 +636,27 @@ body{
     display: flex;
     justify-content: center;
     color: white;
-    top: 245px;
+    top: 14vw;
+}
+.talk_abour_us > p{
+    font-size: 1.8vw;
+
 }
 
-
 /* ---------black_section_carusel_menu-------------------- */
-.single_blok{
-    padding-right: 15px;
-    padding-left: 15px;
-    position: relative;
+.single_blok {
+    padding-right: 1vw;
+    padding-left: 1vw;
+    position: absolute;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: center;
     align-content: center;
     align-items: center;
-    width: 895px;
-    height: 325px;
+    width: 64vw;
+    height: 30vw;
     background: rgba(0,0,0,0.4);
-    top: 380px;
+    top: 23vw;
 }
 
 .vector_left{
@@ -634,6 +671,7 @@ body{
     display: flex;
     top: 43px;
     color: white;
+    font-size: 1.5vw;
 }
 .text_center{
     position: absolute;
@@ -642,7 +680,9 @@ body{
     width: 71%;
     color: white;
     text-align: center;
+    font-size: 1.5vw;
 }
+
 
 .vector_right{
     position: absolute;
@@ -663,11 +703,11 @@ body{
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 5px 5px 5px 5px; /* размер и форма */ 
+    border-width: 0.4vw 0.4vw 0.4vw 0.4vw;
     border-color: white;
     transform: rotate(45deg);
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 /* -----------footer_aria---- */
@@ -676,15 +716,15 @@ body{
     background: url(../css/img/footer.png) no-repeat center;
     background-size: cover;
     width: 100%;
-    height: 400px;
-   
-
+    height: 37vw;
+    top: -60vw;
 }
+
 .section_of_three{
     position: relative;
     display: flex;
     justify-content: center;
-    
+     color: white;
 }
 
 .logo_bottom{
@@ -703,15 +743,13 @@ body{
     color: white;
 }
 
-.section_of_three p{
-    color: white;
-}
+
 .left_aria{
     position: absolute;
     display: flex;
     justify-content: flex-start;
-    left: 25px;
-    top: 215px;
+    left: 1vw;
+    top: 16vw;
     
 }
 .text_under_logo_bottom{
@@ -728,6 +766,7 @@ body{
     display: flex;
     justify-content: center;
     top: 215px;
+    left: 40vw;
 }
 .social_footer{
     display: flex;
@@ -767,9 +806,9 @@ body{
     background: url(../css/img/map.png) no-repeat center;
     background-size: cover;
     width: 100%;
-    height: 400px;
+    height: 22vw;
     position: relative;
-    
+    top: -60vw;
     
 }
 .arrow_map{
@@ -861,7 +900,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    left: 360px;
+    left: 28vw;
     position: absolute;
 }
 .text_top_header {
@@ -871,137 +910,140 @@ body{
 }
 
  .rect_1{
-    width: 156px;
-    height: 156px;
+    width: 13vw;
+    height: 13vw;
     background-color: #BACBDC;
     transform: rotate(45deg);
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border: 0.15vw solid black;
 }
+
 .rect_1 h2{
     transform: rotate(-45deg);
-    font-size: 20px;
+    font-size: 1.8vw;
     position: absolute;
-    top: 35px;
-    left: 4px;
+    top: 3vw;
+    left: 0vw;
 }
 .rect_1 p{
     transform: rotate(-45deg);
-    font-size: 12px;
+    font-size: 1vw;
     text-align: center;
     position: relative;
-    top: 22px;
-    left: 22px;
+    top: 2vw;
+    left: 2vw;
 }
 .rect_1 img{
     position: absolute;
     transform: rotate(-45deg);
-    right: 10px;
-    bottom: 19px;
+    right: 1vw;
+    bottom: 1.5vw;
+    display: flex;
+    width: 2vw;
+    height: 2vw;
 }
 .rect_2{
     display: flex;
     position: absolute;
-    left: 98px;
-    bottom: 94px;
+    left: 7.5vw;
+    bottom: 7.5vw;
 }
 .background_rect_2{
-    width: 220px;
-    height: 220px;
-    background: linear-gradient(0deg, rgba(17, 33, 50, 0.61), rgba(17, 33, 50, 0.61)), url(../css/img/reykjavik3.png);
+    width: 18vw;
+    height: 18vw;
+    background: linear-gradient(0deg, rgba(17, 33, 50, 0.61), rgba(17, 33, 50, 0.61)), url(../css/img/reykjavik3.png)no-repeat center;
    -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);  
    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);  
 }
 .rect_2 p{
     text-transform: uppercase;
     color: white;
-    font-size: 15px;
+    font-size: 1.2vw;
     z-index: 1;
     position: absolute;
     align-self: center;
-    left: 58px;
-    top: 128px;
+    left: 5vw;
+    top: 10vw;
 }
 .rect_3{
     display: flex;
-    bottom: -3px;
     position: absolute;
-    left: 227px;
-    top: -31px;
+    left: 17.7vw;
+    top: -2.5vw;
 }
 .background_rect_3{
-    width: 220px;
-    height: 220px;
-    background: linear-gradient(0deg, rgba(17, 33, 50, 0.61), rgba(17, 33, 50, 0.61)), url(../css/img/stockholm.png);
+    width: 18vw;
+    height: 18vw;
+    background: linear-gradient(0deg, rgba(17, 33, 50, 0.61), rgba(17, 33, 50, 0.61)), url(../css/img/stockholm.png)no-repeat center;
    -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);  
    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);  
 }
 .rect_3 p{
     text-transform: uppercase;
     color: white;
-    font-size: 15px;
+    font-size: 1.2vw;
     z-index: 1;
     position: absolute;
     align-self: center;
-    left: 68px;
-    top: 137px;
+    left: 6vw;
+    top: 10vw;
 }
 .rect_red_45{
-    width: 45px;
-    height: 45px;
+    width: 3vw;
+    height: 3vw;
     background: #432132;
     display: flex;
     position: absolute;
     transform: rotate(45deg);
-    bottom: 228px;
-    left: 315px;
+    bottom: 18vw;
+    left: 25.2vw;
 }
 .rect_4{
     display: flex;
     position: absolute;
-    left: 356px;
-    bottom: 95px;
+    left: 28vw;
+    bottom: 7.5vw;
 }
 .background_rect_4{
-    width: 220px;
-    height: 220px;
-    background: linear-gradient(0deg, rgba(17, 33, 50, 0.61), rgba(17, 33, 50, 0.61)), url(../css/img/helsinki.png);
+    width: 18vw;
+    height: 18vw;
+    background: linear-gradient(0deg, rgba(17, 33, 50, 0.61), rgba(17, 33, 50, 0.61)), url(../css/img/helsinki.png)no-repeat center;
    -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);  
    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);  
 }
 .rect_4 p{
     text-transform: uppercase;
     color: white;
-    font-size: 15px;
+    font-size: 1.2vw;
     z-index: 1;
     position: absolute;
     align-self: center;
-    left: 73px;
-    top: 137px;
+    left: 6vw;
+    top: 10vw;
 }
 .rect_grey_80{
-    width: 80px;
-    height: 80px;
+    width: 5vw;
+    height: 5vw;
     background: #435465;
     display: flex;
     position: absolute;
     transform: rotate(45deg);
-    bottom: 234px;
-    left: 551px;
+    bottom: 19vw;
+    left: 44vw;
 }
 .rect_white_37{
-    width: 37px;
-    height: 37px;
+    width: 2vw;
+    height: 2vw;
     background: white;
     display: flex;
     position: absolute;
 
  }
 .rect_black_27{
-    width: 27px;
-    height: 27px;
+    width: 1.4vw;
+    height: 1.4vw;
     background: black;
     display: flex;
     position: absolute;
@@ -1009,25 +1051,25 @@ body{
 .rect_5{
     display: flex;
     position: absolute;
-    left: 607px;
-    bottom: 95px;
+    left: 47vw;
+    bottom: 7.5vw;
 }
 .background_rect_5{
-    width: 220px;
-    height: 220px;
-    background: linear-gradient(0deg, rgba(17, 33, 50, 0.61), rgba(17, 33, 50, 0.61)), url(../css/img/kopengaagen.png);
+    width: 18vw;
+    height: 18vw;
+    background: linear-gradient(0deg, rgba(17, 33, 50, 0.61), rgba(17, 33, 50, 0.61)), url(../css/img/kopengaagen.png)no-repeat center;
    -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);  
    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);  
 }
 .rect_5 p{
     text-transform: uppercase;
     color: white;
-    font-size: 15px;
+    font-size: 1.2vw;
     z-index: 1;
     position: absolute;
     align-self: center;
-    left: 77px;
-    top: 137px;
+    left: 6vw;
+    top: 10vw;
 }
 
  /* --section_6_blocks----- */

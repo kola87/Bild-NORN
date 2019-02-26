@@ -54,7 +54,7 @@ function zad3(hour, min, dur){
 //applay, coll
 
 applay(context, params){}
-clearInterval(context, [param]) */
+clearInterval(context, [param]) 
 function test(){
     return this.red;
 }
@@ -77,6 +77,8 @@ function f0(a){
 }
 const f1 = function(){}
 const f2 = ()=>{}
+
+*/
 
 
 

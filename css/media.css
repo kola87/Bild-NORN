@@ -1,6 +1,6 @@
 
 @media(max-width: 1250px){
-    .buttons_bottom_right {
+    /* .buttons_bottom_right {
     top: 302px;
     left: 2px;
     }
@@ -11,11 +11,11 @@
     .background_blue_1063 {
         height: 1174px;
         }
-  
+   */
 }
 
 @media(max-width: 1199px){
-    .background_blue_1063 {
+    /* .background_blue_1063 {
         height: 1381px;
         
     }
@@ -26,32 +26,32 @@
 
         padding-bottom: 257px;
         top: 406px;
-    }
-    .mrblock{
+    } */
+    /* .mrblock{
         transform: scale(0.9)
-        }
+        } */
     
     
 }
 @media(max-width: 1120px){
-    .rect_grey2_3{
+    /* .rect_grey2_3{
         transform: scale(0.7)
-        }
-    .header_background_triangle{
+        } */
+    /* .header_background_triangle{
             right: 0px;
             top: 300px;
-        }
-    .header_background_triangle{
+        } */
+    /* .header_background_triangle{
     right: 0px;
     top: 200px;
         }
     .mrblock{
         transform: scale(0.8);
-        }
+        } */
   
 }
 @media(max-width: 1030px){
-    .mark_sea2{
+    /* .mark_sea2{
         top: 24px;
     }
     .talk_abour_us{
@@ -62,13 +62,14 @@
     }
     .wrapper_5{
         height: 650px;
-    }
-    .header_wgite_square_left_800{
-    width: 645px;
-    height: 488px;
-    transform: rotate(41deg);
-    }
-    .wrapper{
+    } */
+    /* .header_wgite_square_left_800{
+        border-width: 44em 27.5em 24.5em 0em;
+        transform: rotate(274deg);
+        right: 213px;
+        top: -457px;
+    } */
+    /* .wrapper{
         max-width: 100%;
         height: 862px;
     }
@@ -79,9 +80,7 @@
     .wrapper3{
         height: 668px;
     }
-    .body-background{
-        
-    }
+    
     .gradient_sea{
         height: 178px;
     }
@@ -97,19 +96,19 @@
         width: 423px;
     }
     .text_top_header {
-        padding-left: 10px;
+        padding-left: 10px; */
     }
-    .header_background_triangle {
+    /* .header_background_triangle {
         right: 0px;
         top: 178px;
-        }
-    .mrblock{
+        } */
+    /* .mrblock{
         transform: scale(0.8);
-        }
-    .courses_9_rectangles{
+        } */
+    /* .courses_9_rectangles{
         left: 133px;
-    }
-    .background_main{
+    } */
+    /* /* .background_main{
         height: 600px;
     }
     .background_blue_1063{
@@ -145,21 +144,21 @@
     }
     .map_footer{
         height: 250px;
-        /* top: 400px; */
-    }
-}   
+         top: 400px; 
+    } */
+}    
 @media(max-width: 900px){
-    .header_background_triangle {
+    /* .header_background_triangle {
         right: 0px;
         top: 86px;
-        }
+        } 
     .mrblock{
         transform: scale(0.75);
-        }
+        }*/
 }
 @media(max-width: 799px){
     
-    .gradient_sea {
+    /* .gradient_sea {
         height: 135px;
     }
     .wrapper3 {
@@ -178,7 +177,7 @@
     }
     .map_footer{
         height: 200px;
-        /* top: 400px; */
+        
     }
     .footer_background{
         height: 400px;
@@ -254,6 +253,12 @@
             right: 0px;
             left: 0px;
         }
+        .header_wgite_square_left_800{
+            top: -279px;
+        }
+        .header_background_triangle{
+            right: -59px;
+        } */
     }
  @media(max-width: 770px){
     .menu_courses > ul{
@@ -266,6 +271,42 @@
     }
 }
 @media(max-width: 360px){
+    .mobile_header_background{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        background-size: cover;
+        background: rgba(0, 0, 0, 0.4) url(../css/img/pau-sayrol-418802-unsplash.png) no-repeat;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .wrapper2{
+        display: none;
+    }
+    .header_background_triangle{
+        display: none;
+    }
+    .rectangle_top_header{
+        width: 136px;
+        height: 136px;
+        background: #BACBDC;
+        transform: rotate(45deg);
+        margin-top: -68px;
+    }
+    .logo{
+        flex-direction: column;
+    }
+    .contacts{
+        display: none;
+    }
+    
+
+
+
+
+
+
     
 }
 @media(max-width: 320px){
@@ -321,6 +362,14 @@
 }
 
     
+
+
+
+
+
+
+/* 
+
         
 @media(max-width: 1200px){
     .courses_9_rectangles{
@@ -347,6 +396,7 @@
         .ractangle_section {
             height: 606px;
     }
+  
 }
 @media(max-width: 1035px){
     .courses_9_rectangles{
@@ -388,4 +438,4 @@
     .courses_9_rectangles{
         overflow: hidden;
     }
-}
+} */
